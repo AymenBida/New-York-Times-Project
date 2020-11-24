@@ -1,5 +1,7 @@
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 10px;
 }
 
 li {
@@ -8,4 +10,45 @@ li {
 
 #main-logo {
   height: 25px;
+}
+
+.btn {
+  background-color: #576a89;
+  color: white;
+  border-radius: 2px;
+}
+
+  /* flex container */
+.navbar {
+  display: flex;
+  margin: -5px;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  /*flex container*/
+#search-menu-icons {
+  display: flex;
+  align-items: center;
+}
+
+#search-menu-icons > * {
+  padding: 4px 8px;
+}
+
+#suscribe-btn > * {
+  padding: 4px 8px;
+}
+
+#suscribe-btn > li > .btn {
+  padding: 5px;
+}
+
+#main-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid black;
 }
