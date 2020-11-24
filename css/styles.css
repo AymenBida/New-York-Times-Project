@@ -1,6 +1,10 @@
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0px;
+}
+
+#navbar > ul {
   padding: 10px;
 }
 
@@ -37,6 +41,10 @@ li {
   padding: 4px 8px;
 }
 
+#search-menu-icons > li > * {
+  text-decoration: none;
+}
+
 #suscribe-btn > * {
   padding: 4px 8px;
 }
@@ -51,4 +59,68 @@ li {
   top: 0;
   background-color: white;
   border-bottom: 1px solid black;
+}
+
+#main-element {
+  margin-top: 48px;
+  width: 80%;
+  margin: 48px auto 0 auto;
+}
+
+h1 {
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style: italic;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+.figure {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.picture {
+  width: 100%;
+}
+
+.section {
+  width: 50%;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+figure > p {
+  color: grey;
+  margin-top: 8px;
+}
+
+.comment-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  margin: 0 6px;
+}
+
+.article-p > p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.small-hr {
+  width: 80px;
+}
+
+.notice {
+  margin: 0;
+  text-align: center;
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.notice > a {
+  text-decoration: none;
 }
