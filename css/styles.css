@@ -12,8 +12,17 @@ li {
   display: inline-block;
 }
 
+aside > ul > li > h4 > a {
+  text-decoration: none;
+  color: black;
+}
+
 .notice > a {
   text-decoration: none;
+}
+
+#end-notice > a {
+  color: darkslategrey;
 }
 
 #search-menu-icons > li > a {
@@ -79,8 +88,20 @@ li {
   flex: 5;
 }
 
+#copyright-section > * {
+  margin: 0 10px;
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #search-menu-icons > li > * {
   text-decoration: none;
+}
+
+.flex-comments > ul > li > .btn {
+  width: 320px;
+  height: 40px;
+  border: solid 1px transparent;
 }
 
 #suscribe-btn > li > .btn {
@@ -248,24 +269,14 @@ h3 {
   line-height: 18px;
 }
 
-#end-notice > a {
-  color: darkslategrey;
-}
-
 .flex-comments {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.flex-comments > ul > li > .btn {
-  width: 320px;
-  height: 40px;
-  border: solid 1px transparent;
-}
-
 #more-articles {
-  display:flex;
+  display: flex;
   align-items: flex-start;
 }
 
@@ -277,6 +288,10 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+#footer-elements > div {
+  flex: 1;
 }
 
 #more-articles > article > div {
@@ -293,9 +308,23 @@ h3 {
   width: 100%;
 }
 
+#copyright-section > li > a {
+  text-decoration: none;
+  color: darkslategrey;
+}
+
 #more-articles > article > figure > h4 > a {
   text-decoration: none;
   color: black;
+}
+
+aside > ul > li > h4 {
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+#footer-elements > div > h4 {
+  margin-bottom: 10px;
 }
 
 #more-articles > article > figure > h4 {
@@ -312,16 +341,6 @@ h3 {
 #more-articles > article > figure > .date {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-}
-
-aside > ul > li > h4 {
-  margin: 10px 0;
-  font-size: 17px;
-}
-
-aside > ul > li > h4 > a {
-  text-decoration: none;
-  color: black;
 }
 
 aside > ul > li {
@@ -346,10 +365,6 @@ aside > h3 {
   display: flex;
 }
 
-#footer-elements > div {
-  flex: 1;
-}
-
 #footer-elements > div > ul {
   display: flex;
   flex-wrap: wrap;
@@ -357,10 +372,6 @@ aside > h3 {
 
 #footer-elements > div > ul > * {
   width: 100%;
-}
-
-#footer-elements > div > h4 {
-  margin-bottom: 10px;
 }
 
 #footer-elements > div > ul > li {
@@ -394,17 +405,6 @@ aside > h3 {
 #copyright-section {
   display: flex;
   justify-content: center;
-}
-
-#copyright-section > * {
-  margin: 0 10px;
-  font-size: 12px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#copyright-section > li > a {
-  text-decoration: none;
-  color: darkslategrey;
 }
 
 .border-top {
