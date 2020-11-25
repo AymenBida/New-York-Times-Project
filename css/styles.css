@@ -232,6 +232,7 @@ h3 {
 .iframe {
   display: block;
   margin: auto;
+  border: 0;
 }
 
 .italic {
