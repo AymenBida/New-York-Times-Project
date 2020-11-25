@@ -241,3 +241,57 @@ h3 {
   height: 40px;
   border: solid 1px transparent;
 }
+
+#more-articles {
+  display:flex;
+  align-items: flex-start;
+}
+
+#more-articles > * {
+  margin: 15px;
+  flex: 5;
+}
+
+#more-articles > div {
+  flex: 2;
+}
+
+#more-articles > article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#more-articles > article > div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#more-articles > article > figure {
+  width: calc(33.33333% - 10px);
+  margin: 0 0 30px 0;
+}
+
+#more-articles > article > figure > img {
+  width: 100%;
+}
+
+#more-articles > article > figure > h4 > a {
+  text-decoration: none;
+}
+
+#more-articles > article > figure > h4 {
+  margin: 0;
+}
+
+#more-articles > article > figure > .source {
+  color: grey;
+  text-align: right;
+  margin: 0;
+  font-size: 12px;
+}
+
+#more-articles > article > figure > .date {
+  font-family: arial;
+  font-size: 12px;
+}
