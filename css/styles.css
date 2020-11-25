@@ -184,3 +184,60 @@ h3 {
   display: block;
   margin: 8px auto;
 }
+
+.line-left {
+  margin-right: 90%;
+}
+
+.flex-morning {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-morning > p {
+  flex: 8;
+}
+
+.sign-up-btn {
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 5%;
+  height: 35px;
+  font-weight: bolder;
+}
+
+.flex-morning > div {
+  flex: 1;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.iframe {
+  display: block;
+  margin: auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#end-notice {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: darkslategray;
+  line-height: 18px;
+}
+
+.flex-comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-comments > ul > li > .btn {
+  width: 320px;
+  height: 40px;
+  border: solid 1px transparent;
+}
