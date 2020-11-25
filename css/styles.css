@@ -12,8 +12,23 @@ li {
   display: inline-block;
 }
 
+#search-menu-icons > li > a {
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
 #main-logo {
+  margin-right: 58px;
+}
+
+#main-logo, #main-logo2 {
   height: 25px;
+}
+
+#main-logo2 {
+  margin-top: 12px;
 }
 
 .btn {
@@ -309,4 +324,77 @@ aside > ul > li > h4 {
 aside > ul > li > h4 > a {
   text-decoration: none;
   color: black;
+}
+
+.footer > hr {
+  margin: 1px 0;
+}
+
+#logo-icon {
+  height: 14px;
+}
+
+#footer-elements {
+  display: flex;
+}
+
+#footer-elements > div {
+  flex: 1;
+}
+
+#footer-elements > div > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer-elements > div > ul > * {
+  width: 100%;
+}
+
+#footer-elements > div > h4 {
+  margin-bottom: 10px;
+}
+
+#footer-elements > div > ul > li {
+  line-height: 26px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#footer-elements > div > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.border-left {
+  border-left: solid 1px lightgray;
+  padding-left: 20px ;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.spacing-top {
+  margin-top: 20px;
+}
+
+.small-text {
+  font-size: 12px !important;
+}
+
+#copyright-section {
+  display: flex;
+  justify-content: center;
+}
+
+#copyright-section > * {
+  margin: 0 10px;
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#copyright-section > li > a {
+  text-decoration: none;
+  color: darkslategrey;
 }
