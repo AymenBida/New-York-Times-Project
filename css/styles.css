@@ -230,6 +230,10 @@ h3 {
   line-height: 18px;
 }
 
+#end-notice > a {
+  color: darkslategrey;
+}
+
 .flex-comments {
   display: flex;
   justify-content: space-between;
@@ -252,7 +256,7 @@ h3 {
   flex: 5;
 }
 
-#more-articles > div {
+#more-articles > aside {
   flex: 2;
 }
 
@@ -278,6 +282,7 @@ h3 {
 
 #more-articles > article > figure > h4 > a {
   text-decoration: none;
+  color: black;
 }
 
 #more-articles > article > figure > h4 {
@@ -294,4 +299,14 @@ h3 {
 #more-articles > article > figure > .date {
   font-family: arial;
   font-size: 12px;
+}
+
+aside > ul > li > h4 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+aside > ul > li > h4 > a {
+  text-decoration: none;
+  color: black;
 }
