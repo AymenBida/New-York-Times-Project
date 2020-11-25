@@ -49,6 +49,7 @@ aside > ul > li > h4 > a {
   background-color: #576a89;
   color: white;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .navbar {
@@ -242,6 +243,7 @@ h3 {
   border-radius: 5%;
   height: 35px;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .flex-morning > div {
