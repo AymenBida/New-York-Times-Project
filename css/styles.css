@@ -447,10 +447,10 @@ h3 {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   z-index: -1;
-  right: 35px;
-  top: 200px;
+  right: 72px;
+  top: 1806px;
   background-color: white;
 }
 
