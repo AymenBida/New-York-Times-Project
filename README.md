@@ -4,7 +4,7 @@
 
 > We re-created the web page of NYT Paper 
 
-<!-- ![screenshot](./app_screenshot.png) -->
+![screenshot](./assets/images/screenshot.jpg)
 
 This is our first Microverse project we implemented it using the positioning, flexbox and grid system concepts
 ## Built With
