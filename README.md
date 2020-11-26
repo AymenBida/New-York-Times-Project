@@ -4,7 +4,7 @@
 
 > We re-created the web page of NYT Paper 
 
-![screenshot](./app_screenshot.png)
+<!-- ![screenshot](./app_screenshot.png) -->
 
 This is our first Microverse project we implemented it using the positioning, flexbox and grid system concepts
 ## Built With
@@ -19,10 +19,6 @@ This is our first Microverse project we implemented it using the positioning, fl
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
