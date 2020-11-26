@@ -567,6 +567,35 @@
                         </ul>
                     </div>
                 </div>
+                <div id="comment-section">
+                    <form id="comment-form" action="" method="get">
+                        <div class="text-input">
+                            <label for="name">User name</label>
+                            <input id="name" type="text" required maxlength="20">
+                        </div>
+                        <div class="text-input">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" required maxlength="20">
+                        </div>
+                        <div class="comment-input">
+                            <label class="comment-input" for="comment">Comment</label>
+                            <textarea class="comment-input" name="comment" id="comment" cols="30" rows="10"
+                                placeholder="Type your comment here…" required maxlength="250"></textarea>
+                        </div>
+                        <div class="opinion">
+                            <p>What is your overall opinion about this article ?</p>
+                            <label for="opinion"><input type="radio" name="opinion"> Positive</label>
+                            <label for="opinion"><input type="radio" name="opinion"> Negative</label>
+                            <label for="opinion"><input type="radio" name="opinion"> Neutral</label>
+                        </div>
+                        <div class="subscribe">
+                            <label for="subscribe"><input type="checkbox"> I want to subscribe to the newsletter</label>
+                        </div>
+                        <div class="submit">
+                            <button class="btn" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
             </section>
         </article>
         <br>

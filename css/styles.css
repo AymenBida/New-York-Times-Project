@@ -54,7 +54,7 @@ li {
 .btn {
   background-color: #576a89;
   color: white;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -482,4 +482,73 @@ h3 {
 
 .white-bg {
   background-color: white;
+}
+
+#comment-form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px lightgray;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+#comment-form > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#comment-form > div > label,
+#comment-form > div > p,
+#comment-form > div > button {
+  font-size: 18px;
+}
+
+#comment-form > div > input {
+  height: 26px;
+  flex-shrink: 1;
+}
+
+#comment-form > div.text-input {
+  width: calc(50% - 20px);
+}
+
+#comment-form > div.comment-input {
+  width: calc(100% - 20px);
+}
+
+#comment-form > div > label.comment-input {
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+#comment-form > div > textarea.comment-input {
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+#comment-form > div > p {
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+#comment-form > div.subscribe {
+  width: calc(100% - 20px);
+  display: flex;
+  justify-content: center;
+  border-top: solid 1px lightgray;
+}
+
+#comment-form > div.submit {
+  width: calc(100% - 20px);
+  display: flex;
+  justify-content: center;
+}
+
+#comment-form > div.opinion {
+  display: flex;
+  justify-content: space-evenly;
 }
