@@ -11,7 +11,7 @@ This is our first Microverse project we implemented it using the positioning, fl
 
 - HTML
 - CSS
-- Linters 
+- VS Code 
 
 ## Live Demo
 
@@ -24,17 +24,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+A machine with a working and up to date web browser.
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the repository to your folder of choice using Git (or just download all the files)
+- Open the index.html file (in the root folder) and the website should show up.
 
 ## Authors
 
@@ -58,9 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank you Microverse to giving us this chance to learn :)
 
 ## 📝 License
 
