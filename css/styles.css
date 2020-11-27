@@ -308,6 +308,14 @@ h3 {
   flex: 1;
 }
 
+#comment-form > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
 #more-articles > article > div {
   width: 100%;
   margin-bottom: 10px;
@@ -491,14 +499,6 @@ h3 {
   border: solid 1px lightgray;
   margin: 20px auto;
   border-radius: 4px;
-}
-
-#comment-form > div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
 }
 
 #comment-form > div > label,
