@@ -552,3 +552,8 @@ h3 {
   display: flex;
   justify-content: space-evenly;
 }
+
+.hidden {
+  font-size: 0;
+  margin: 0;
+}
